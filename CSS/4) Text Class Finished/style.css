@@ -1,0 +1,78 @@
+h1 {
+    border: 1px solid black;
+    line-height: 100px;
+    text-shadow: -10px -10px 0 rgb(206, 206, 206);
+}
+
+/* Psudeo classes */
+.para::first-letter {
+    color: red;
+    font-size: 30px;
+    background-color: aqua;
+}
+
+/* .para::first-line {
+    color: red;
+    font-size: 30px;
+    background-color: aqua;
+} */
+
+a:link {
+    color: red;
+    font-size: 40px;
+    /* background-color: green; */
+}
+
+/* a:visited {
+    color: #00ff00;
+    font-size: 40px;
+}
+
+p:hover {
+    color: yellow;
+}
+
+a:hover {
+    color: red;
+}
+
+
+
+
+a:active{
+    font-size: 40px;
+    color: teal;
+} */
+/* input:focus{
+    background-color: chartreuse;
+    border: 12px solid red;
+   
+}
+
+p[title="Para2"]{
+    color: blue;
+    font-size: large;
+} */
+/* .text {
+    color: red;
+}
+.background{
+    background-color: aqua;
+}
+.special{
+    font-size: 40px;
+} */
+
+p[class~="special"] {
+    font-size: 40px;
+}
+
+/* p[title="Para2"]{
+    color: blue;
+    font-size: large;
+}  */
+
+
+p[title*="p"] {
+    color: yellow;
+}
