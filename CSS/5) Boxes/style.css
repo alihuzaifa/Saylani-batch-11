@@ -1,0 +1,21 @@
+/* p[class*="ec"]{
+    background-color: rgb(0, 119, 255);
+} */
+/* p {
+    max-width: 500px;
+    max-height: 500px;
+    border: 1px solid black;
+}
+
+.special {
+    overflow: auto;
+    overflow: scroll;
+    background-color: red;
+} */
+
+/* p {
+    border-width: 10px;
+    border-style: dotted;
+    border-style: dashed;
+    border-color: #858585;
+} */
