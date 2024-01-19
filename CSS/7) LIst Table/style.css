@@ -1,0 +1,65 @@
+/* li {
+    display: inline-block;
+    border: 1px solid black;
+}
+
+a {
+    color: black;
+    font-size: large;
+    text-decoration: none;
+}
+
+.block-ele {
+    display: block;
+} */
+
+/* .container{
+    display: inline-block;
+    padding: 10px;
+}
+.inline{
+    display: inline;
+}
+.navbar{
+    
+    background-color: aqua;
+} */
+h1 {
+    /* display: none; */
+    /* border: 1px solid black; */
+    /* visibility: hidden; */
+    /* -moz-border-image: url("images/line.jpg")
+     11 11 11 11 stretch; */
+    /* width: 100px;
+     height: 100px;
+     border: 1px solid black;
+     box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px; */
+}
+
+ul {
+    width: 150px;
+}
+
+li {
+    margin: 10px;
+}
+
+ul.illuminations {
+    list-style-position: outside;
+}
+
+ul.season {
+    list-style: circle inside;
+}
+
+table,
+td,
+th {
+    border: 1px solid black;
+}
+td,
+th {
+    padding: 10px;
+    margin: 10px;
+    text-transform: uppercase;
+}
