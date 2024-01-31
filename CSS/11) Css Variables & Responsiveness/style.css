@@ -1,0 +1,128 @@
+
+/* .container{
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 5px;
+}
+
+
+
+header {
+    background-color: var(--myWebColor);
+    color: #ffffff;
+    font-family: var(--myFont);
+}
+
+.navbar {
+    background-color: var(--myWebColor);
+    border: 2px solid black;
+    font-size: var(--webFont);
+}
+
+.body {
+    color: var(--myWebColor);
+    text-align: center;
+
+}
+
+.footer {
+    color: #fff;
+    text-align: center;
+    background-color: var(--myWebColor);
+} */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    margin: 0px 10px;
+    list-style: none;
+
+}
+
+a {
+    text-decoration: none;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 1000px;
+    height: 1000px;
+}
+.cards{
+    width: 300px;
+    height: 300px;
+    background-color: tomato;
+    margin: 5px;
+    border-radius: 10px;
+}
+
+
+
+@media screen and (min-width:300px) {
+    .navbar {
+        background-color: green;
+        color: #6e6c6c;
+
+    }
+    .list{
+        display: none;
+    }
+   
+}
+@media screen and (min-width:900px) {
+    .navbar {
+        background-color: rgb(142, 142, 248);
+        color: #6e6c6c;
+    }
+    .list{
+        display: flex;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (min-width:1024px) {
+    .navbar {
+        background-color: yellow;
+        color: #6e6c6c;
+    }
+    .list{
+        display: flex;
+    }
+    /* .container{
+        display: flex;
+        flex-direction: row;
+    } */
+    
+}
+
+
+
+/* Standard Screen Sizes
+1280x1024 large
+1024x768 medium
+800x600 medium
+640x480 medium
+*/
