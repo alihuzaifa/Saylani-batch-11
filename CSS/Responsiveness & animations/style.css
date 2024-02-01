@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    background-color: rgb(0, 255, 42);
+    width: 1000px;
+    height: 1000px;
+}
+@media screen and (min-width:700px) {
+    .container{
+        background-color: rgb(255, 187, 0);
+    }
+}
+@media screen and (min-width:1000px) {
+    .container{
+        background-color: red;
+    }
+}
