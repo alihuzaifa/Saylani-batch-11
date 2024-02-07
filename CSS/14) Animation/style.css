@@ -1,0 +1,90 @@
+/* .box {
+    width: 250px;
+    height: 250px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 10px 0px;
+}
+
+.box1 {
+    transform: translate(400px, 50px);
+}
+
+.box2 {
+    transform: rotate(150deg);
+}
+
+.box3 {
+    transform: scale(1, 2);
+}
+
+.box4 {
+    transform: skew(20deg, 30deg);
+}
+.box5{
+    transform: matrix(3, -0.3, 0, 1, 1000, 0);
+} */
+/* .transitionBox{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    transition: 3s;
+}
+.transitionBox:hover{
+    background-color: red;
+    width: 500px;
+} */
+
+.transitionBox {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    animation-name: batch;
+    animation-duration: 5s;
+    animation-iteration-count: 2;
+    animation-delay: 2s;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes batch {
+    /* from {
+        background-color: orange;
+    }
+
+    to {
+        background-color: aqua;
+    } */
+
+    0% {
+        background-color: orange;
+        width: 300px;
+    }
+
+    20% {
+        background-color: red;
+        width: 400px;
+    }
+
+    40% {
+        width: 500px;
+        background-color: yellow;
+    }
+
+    60% {
+        background-color: blue;
+        width: 600px;
+    }
+
+    80% {
+        background-color: green;
+        width: 700px;
+    }
+
+    100% {
+        background-color: pink;
+        width: 800px;
+    }
+}
