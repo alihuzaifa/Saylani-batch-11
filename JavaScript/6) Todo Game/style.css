@@ -1,0 +1,20 @@
+
+
+.child-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 170px;
+    height: 170px;
+    border: 1px solid black;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
