@@ -36,42 +36,51 @@ var box8 = document.getElementById('box-8');
 var box9 = document.getElementById('box-9');
 
 
-// console.log(box1.innerHTML)
 
-
-// parameter
-
+var count = 0;
 function game(parameter1) {
+    var wordShow = count % 2;
+    var word;
+    if (wordShow === 0) {
+        word = "o"
+    } else {
+        word = "x"
+    }
+
     if (parameter1 === '1') {
-        box1.innerHTML = "o"
+        box1.innerHTML = word
+        count++
     }
-    if (parameter1 === '2') {
-        box2.innerHTML = "o"
+    else if (parameter1 === '2') {
+        box2.innerHTML = word
+        count++
     }
-    if (parameter1 === '3') {
-        box3.innerHTML = "o"
+    else if (parameter1 === '3') {
+        box3.innerHTML = word
+        count++
     }
-    if (parameter1 === '4') {
-        box4.innerHTML = "o"
+    else if (parameter1 === '4') {
+        box4.innerHTML = word
+        count++
     }
-    if (parameter1 === '5') {
-        box5.innerHTML = "o"
+    else if (parameter1 === '5') {
+        box5.innerHTML = word
+        count++
     }
-    if (parameter1 === '6') {
-        box6.innerHTML = "o"
+    else if (parameter1 === '6') {
+        box6.innerHTML = word
+        count++
     }
-    if (parameter1 === '7') {
-        box7.innerHTML = "o"
+    else if (parameter1 === '7') {
+        box7.innerHTML = word
+        count++
     }
-    if (parameter1 === '8') {
-        box8.innerHTML = "o"
+    else if (parameter1 === '8') {
+        box8.innerHTML = word
+        count++
     }
-    if (parameter1 === '9') {
-        box9.innerHTML = "o"
+    else if (parameter1 === '9') {
+        box9.innerHTML = word
+        count++
     }
-
-
 }
-
-// arguement
-// game(16)
