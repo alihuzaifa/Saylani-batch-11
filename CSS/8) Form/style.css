@@ -1,0 +1,62 @@
+/* td,
+table {
+    border: 1px solid black;
+    empty-cells: hide;
+    empty-cells: show;
+    border-spacing: 10px 10px;
+    border-collapse: collapse;
+} */
+
+.box{
+    width: 700px;
+    height: 400px;
+    background-color: aqua;
+    border-radius: 5px;
+    margin: 10px auto;
+    padding: 40px;
+}
+.form-box{
+    width: 500px;
+    height: 300px;
+    background-color: #fff;
+    border-radius: 5px;
+    margin: 0px auto;
+}
+input{
+    display: block;
+    margin: 30px auto;
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    border: 0.5px solid black;
+    font-size: 20px;
+}
+button{
+    width: 350px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: aqua;
+    margin: 30px auto;
+    display: block;
+    cursor: move;
+    /* cursor: pointer; */
+}
+fieldset{
+    width: 500px;
+    height: auto;
+    margin: 0px auto;
+}
+legend{
+    background-color: black;
+    color: white;
+    border: 1px solid #fff;
+   
+}
+h1{
+    /* it works lika a family member and it can go anywhere */
+    position: relative;
+    border: 1px solid black;
+    top: 100px;
+    /* left: 2000px; */
+    right: 50px;
+}

@@ -1,0 +1,64 @@
+/* h2 {
+    border: 1px solid red;
+    position: static;
+}
+
+.box {
+    border: 2px solid red;
+    width: 700px;
+    margin: 0px auto;
+    height: 400px;
+}
+
+.absolute,
+.relative,
+.fixed {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+}
+
+
+.relative {
+    position: relative;
+    background-color: red;
+    left: 0px;
+    top: 0px;
+    z-index: 130;
+}
+
+.absolute {
+    background-color: blue;
+    position: absolute;
+    left: 300px;
+    top: 120px;
+    z-index: 120;
+
+}
+
+.fixed {
+    background-color: green;
+    position: fixed;
+    top: 300px;
+    left: 500px;
+}
+
+.sticky{
+    background-color: yellow;
+    position: sticky;
+    top: 0px;
+} */
+
+/* .image{
+    width: 400px;
+    height: 400px;
+    margin: 0px auto;
+    display: block;
+} */
+
+
+.container{
+    background-image: url('https://hips.hearstapps.com/hmg-prod/images/rt-mercedes-benz-cpo-1-1531414981.jpg?crop=0.666xw:1.00xh;0.104xw,0&resize=1200:*');
+    width: 1000px;
+    height: 2000px;
+}

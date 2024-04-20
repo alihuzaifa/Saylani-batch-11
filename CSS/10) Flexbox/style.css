@@ -1,0 +1,30 @@
+/* .container {
+    background-image: url("images/car.webp");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 1300px;
+    height: 1000px;
+    background-attachment: fixed;
+    background-position: center;
+} */
+
+.container{
+    width: 1000px;
+    height: 1000px;
+    border: 1px solid black;
+    display: flex;
+justify-content: flex-end;
+
+    /*
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: baseline; */
+   /* justify-content: space-between; */
+}
+.box{
+    background-color: red;
+    width: 200px;
+    height: 200px;
+    border: 4px solid black;
+   
+}

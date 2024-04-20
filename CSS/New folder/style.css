@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.personal{
+    /* background-color: red; */
+    border: 1px solid white;
+}
+.container{
+    border: 1px solid black;
+}
+.row{
+    background-color: aqua !important;
+}

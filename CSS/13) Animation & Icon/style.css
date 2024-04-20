@@ -1,0 +1,67 @@
+/* .box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-1 {
+    transform: translate(100px, 100px);
+}
+
+.box-2 {
+    transform: rotate(-100deg);
+    border-left: 2px solid black;
+    border-right: 4px solid rgb(255, 5, 5);
+    border-top: 6px solid rgb(0, 83, 97);
+    border-bottom: 8px solid rgb(5, 165, 0);
+}
+
+.box-3 {
+    transform: scale(1, 1);
+}
+
+.box-4 {
+    transform: skew(20deg, 10deg);
+}
+
+.box-5 {
+    transform: matrix(2, -0.3, 0, 2, 0, 0);
+} */
+
+/* .box {
+    width: 200px;
+    height: 400px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 2s;
+}
+
+.box:hover {
+    width: 400px;
+    background-color: aqua;
+    border-radius: 50%;
+} */
+
+/* @keyframes personalAnimation {
+    from {
+        background-color: aqua;
+    }
+    to {
+        background-color: rgb(255, 0, 0);
+        width: 400px;
+    }
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    animation-name: personalAnimation;
+    animation-duration: 4s;
+} */

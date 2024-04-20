@@ -1,0 +1,59 @@
+h1 {
+    /* border: 2px solid black; */
+    /* border-width: 2px;
+    border-color: red;
+    border-style: solid;  */
+    /* border-top: 8px solid red; */
+    /* border-left: 8px solid green;
+    border-bottom: 8px solid yellow;
+    border-right: 8px solid pink; */
+    /* border-top-width: 8px;
+    border-top-style: dotted;
+    border-top-color: blue; */
+    /* border: 2px solid black; */
+    /* text-align: center; */
+    /* padding: 10px 30px; */
+    /* border: 2px solid red; */
+    /* border-radius: 10px; */
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 20px; */
+}
+body{
+    background-color: rgb(202, 202, 202);
+}
+.box{
+    /* padding-left: 100px; */
+    /* display: flex;
+    justify-content: space-around;
+    align-items: center; */
+}
+.car-image {
+    width: 100px;
+    height: 100px;
+    /* border-radius: 50px; */
+    border-radius: 50%;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+button {
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: brown;
+    color: white;
+    border: none;
+    /* border: 0px solid black; */
+}
+.card{
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 10px;
+    text-align: center;
+    margin: 100px 200px 200px 100px;
+    /* top right bottom left */
+}
