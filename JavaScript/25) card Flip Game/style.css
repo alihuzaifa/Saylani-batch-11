@@ -1,0 +1,12 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    display: block;
+    width: 33%;
+    height: 400px;
+    cursor: pointer;
+}
