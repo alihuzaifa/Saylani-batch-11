@@ -63,6 +63,12 @@ var scores = [58, 73, 89, 90];
 // Sami 89
 // Sami 73
 
+for (let index = 0; index < students.length; index++) {
+    var element = students[index]
+    var otherElement = scores[scores.length - index - 1]
+    console.log(element, otherElement)
+}
+
 
 
 
