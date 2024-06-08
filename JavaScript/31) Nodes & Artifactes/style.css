@@ -1,0 +1,21 @@
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.image {
+    width: 300px;
+    height: 400px;
+    display: block;
+}
+
+button {
+    padding: 10px 30px;
+    background-color: rgb(255, 68, 0);
+    color: white;
+    border-radius: 10px;
+    border: none;
+    margin-top: 10px;
+}
