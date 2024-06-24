@@ -164,6 +164,7 @@ function addHobby(name) {
 function square(number) {
     return number * number
 }
+<<<<<<< HEAD
 // var squareOf25 = square(25);
 // console.log(squareOf25)
 
@@ -175,3 +176,9 @@ function hypo(base, per) {
 var answer = hypo(10, 41)
 console.log(answer)
 // square root base power + per power
+=======
+var squareOf25 = square(25);
+console.log(squareOf25)
+
+function hypo(base, per) { }
+>>>>>>> e1804261d0a7a12e70a40b03693150071dd11595
