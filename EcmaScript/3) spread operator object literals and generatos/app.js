@@ -1,7 +1,11 @@
+import { person, quizQuestions } from "./config.js";
+// import { person } from "./config.js"
 // const numbers = [1, 2, 3, 4, 5, 6, 8];
 // numbers.push(9, 10, 11, 12, 13)
 // const answer = [...numbers, 9, 10, 11, 12]
 // console.log([...numbers, 9, 10, 11, 12])
+
+
 
 
 
@@ -36,8 +40,24 @@
 // console.log(answer)
 
 
-const name = "Ali";
-const age = 27;
-const gender = "Male";
-const obj = { name, age, gender }
+// const name = "Ali";
+// const age = 27;
+// const gender = "Male";
+// const obj = { name, age, gender }
 // console.log({ ...obj, name: "Nadir" })
+
+
+let questionCounter = 0;
+let userScore = 0;
+questionCounter++
+
+
+
+const answer = quizQuestions[questionCounter].answer
+console.log(quizQuestions[questionCounter].options) // for loop option onClick(item)
+const match = "<ul>" === answer;
+if (match) {
+    // localStorage
+    userScore++
+}
+console.log(match)
